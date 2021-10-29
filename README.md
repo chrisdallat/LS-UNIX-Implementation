@@ -1,5 +1,5 @@
 <!-- GETTING STARTED -->
-## My_printf
+## My_ls
 
 ### Task Description
 
@@ -13,6 +13,9 @@ The following options are available:
 *  -t: Sort by time modified (most recently modified first) before sorting the operands by lexicographical order.
 *  /directory name: to show contents of a directory, can include multiple directories in command. 
 ### Program Usage
+
+NOTE: FOR UNIX SYSTEMS!!
+NOTE: FOR LINUX UNCOMMENT COMMENTED-OUT CODE IN C FILES!!
 
 1. From the terminal move to "my_ls" directory and type "make" to compile the program.
 
