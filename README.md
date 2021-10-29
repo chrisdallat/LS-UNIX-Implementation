@@ -11,6 +11,7 @@ The following options are available:
 
 *  -a: Include directory entries whose names begin with a dot (.).
 *  -t: Sort by time modified (most recently modified first) before sorting the operands by lexicographical order.
+*  /directory name: to show contents of a directory, can include multiple directories in command. 
 ### Program Usage
 
 1. From the terminal move to "my_ls" directory and type "make" to compile the program.
@@ -20,8 +21,7 @@ The following options are available:
    ```
 2. You can then run the program with "./my_ls" with any combination of 
     * -a: include to show all files including "." and ".."
-    * -t: include to order files by time modified last.
-    i.e -ta/-at/-a -t/-t -a
+    * -t: include to order files by time modified last. i.e -ta/-at/-a -t/-t -a
     * /directory name: to list contents of a directory
    ```sh
    ./my_ls -at
